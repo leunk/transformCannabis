@@ -1,8 +1,8 @@
-#Hal Jundzil
+Hal Jundzil
 
-#Kyle Melendez
+Kyle Melendez
 
-#Samantha Billings
+Samantha Billings
 
-#Katherine Leung
+Katherine Leung
 
