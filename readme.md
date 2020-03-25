@@ -1,5 +1,3 @@
-Names:
-
 Hal Jundzil
 
 Kyle Melendez
