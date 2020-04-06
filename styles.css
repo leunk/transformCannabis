@@ -1,134 +1,149 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
   
 h1, h2, h3, h4, h5 {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: #326B3E;
 }
 
 .nav-item {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
-    padding: 0 25px;
+  font-family: 'Oswald', sans-serif;
+  color: #71A162;
+  font-size: 1.2em;
+  padding: 0 25px;
 }
   
 .nav-item>a {
-    color: #71A162;
+  color: #71A162;
 }
   
 .navbar {
-    -webkit-box-shadow: 0 6px 6px -6px #999;
-    -moz-box-shadow: 0 6px 6px -6px #999;
-    box-shadow: 0 6px 6px -6px #999;
-    background-color: #E6E6E6;
-    padding: 20px;
+  -webkit-box-shadow: 0 6px 6px -6px #999;
+  -moz-box-shadow: 0 6px 6px -6px #999;
+  box-shadow: 0 6px 6px -6px #999;
+  background-color: #E6E6E6;
+  padding: 20px;
 }
   
 #navbar-primary .navbar-nav {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .li {
-    display: inline-block;
-    float: none;
-  }
+  display: inline-block;
+  float: none;
+}
 
 .navbar-btn {
-    background-color: #326B3E;
-    border: 0 none;
-  }
+  background-color: #326B3E;
+  border: 0 none;
+}
   
 .navbar-btn:hover {
-    background-color: #71A162;
-    text-decoration: none;
-  }
-   
-  .dropdown-toggle::after {
-    transition: transform 0.15s linear; 
- }
- 
- .show.dropdown .dropdown-toggle::after {
-   transform: translateY(3px);
- }
- 
- .dropdown-menu {
-   margin-top: 0;
-   background-color: #326B3E;
- }
+  background-color: #71A162;
+  text-decoration: none;
+}
 
- .dropdown-item {
-     color: #E6E6E6;
- }
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+   
+.dropdown-toggle::after {
+  transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+ 
+.dropdown-menu {
+  margin-top: 0;
+  background-color: #326B3E;
+}
+
+.dropdown-item {
+  color: #E6E6E6;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
 a:hover {
-    color: #234528;
-    text-decoration: none;
+  color: #234528;
+  text-decoration: none;
 }
 
 .jumbotron {
-    margin-bottom: 0px;
-    padding: 20px 0;
-    border-radius: 0;
+  margin-bottom: 0px;
+  padding: 20px 0;
+  border-radius: 0;
 }
 
 .home-card {
-    background: linear-gradient(0deg, rgba(248, 248, 255, 0.5), rgba(248, 248, 255, 0.5)), url(images/JumbotonImage.jpg) no-repeat center center;
-    background-size: cover;
-    min-height: 50vh;
-    box-shadow: 0 4px 12px -6px black;
-    border-radius: 0;
-  }
+  background: url(images/img/20692.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 50vh;
+  box-shadow: 0 4px 12px -6px black;
+  border-radius: 0;
+}
 
 .btn-primary {
-    background-color: #326B3E;
-    border: 0 none;
-  }
+  background-color: #326B3E;
+  border: 0 none;
+}
   
-  .btn-primary:hover {
-    background-color: #71A162;
-  }
+.btn-primary:hover {
+  background-color: #71A162;
+}
 
-
-  .footer {
-    width: 100%;
-    bottom: 0px;
-    background-color: #E6E6E6;
-    color: white;
-  }
+.footer {
+  width: 100%;
+  bottom: 0px;
+  background-color: #E6E6E6;
+  color: white;
+}
   
-  .contact-us {
-    background-color: #547B9B;
-  }
+.contact-us {
+  background-color: #547B9B;
+}
   
-  .contact-card {
-    margin: 10px;
-  }
+.contact-card {
+  margin: 10px;
+}
   
-  .contact-card {
-    border: solid 1px white;
-  }
+.contact-card {
+  border: solid 1px white;
+}
   
-  .session-cal {
-    background-color: #919e5f !important;
-  }
+.session-cal {
+  background-color: #919e5f !important;
+}
   
-  .icon {
-    padding: 0 10px;
-    font-size: 2em;
-    color: #326B3E;
-  }
+.icon {
+  padding: 0 10px;
+  font-size: 2em;
+  color: #326B3E;
+}
   
-  .contact-card a {
-    color: #C6E0D8;
-  }
+.contact-card a {
+  color: #C6E0D8;
+}
 
 .highlight {
-    margin-left: 20px;
-    padding: 10px;
+  margin-left: 20px;
+  padding: 10px;
 }
 
 .event {
-    padding: 10px;
+  padding: 10px;
 
 }
+
+.divider {
+  width: 100%;
+  border-top: 1px solid #326B3E;
+}
+
