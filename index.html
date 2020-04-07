@@ -13,8 +13,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- Age Verification -->
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/cbb868d5b2.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
     <!-- favicon -->
@@ -22,32 +20,48 @@
 
 <body>
     <!--NAV BAR-->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-        <ul class="nav navbar-nav align-items-center">
-          <li class="nav-item d-none d-lg-block"><a href="index.html"><img id="logo-navbar-middle" src="images/Mobilelog3.png" width="100" alt="Transform Cannabis logo"></a></li>
-          <li class="nav-item d-lg-none d-xl-none pb-4"><img id="logo-navbar-middle" src="images/frlogo.png" width="100" alt="freedom ride logo"></li>
-          <li class="nav-item"><a href="index.html">HOME</a></li>
-          <li class="nav-item"><a href="about.html">ABOUT</a></li>
-          <li class="nav-item"><a href="issues.html">ISSUES</a></li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">ISSUES
-                <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-             </ul>
-            </li>
-          <li class="nav-item"><a href="education.html">EDUCATION</a></li>
-          <li class="nav-item"><a href="contact.html">CONTACT</a></li>
-        </ul>
-        <button class="btn btn-danger navbar-btn">DONATE</button>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo-navbar-middle" src="images/Mobilelog3.png" width="100" alt="Transform Cannabis logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="issues.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ISSUES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <a class="dropdown-item" href="legalizationnews.html">LEGALIZATION NEWS</a>
+                  <a class="dropdown-item" href="statepolicies.html">STATE POLICIES</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="education.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EDUCATION
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <a class="dropdown-item" href="resources.html">RESOURCES</a>
+                  <a class="dropdown-item" href="statepolicymap.html">STATE POLICY MAP</a>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                <button class="btn btn-success navbar-btn" href="donate.html">DONATE</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
   <!-- Jumbotron -->
   <div class="card card-image home-card text-left">
@@ -70,6 +84,7 @@
         </div>
         <div class="col-md-3 col-sm-3">
           <h2>Events</h2>
+<iframe src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%2370a161&amp;ctz=America%2FNew_York&amp;src=a3lsZXNlbWFpbGZvcnNjaG9vbEBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%2333B679&amp;title=Cannabis%20entailed%20events%20in%20Florida" style="border:solid 1px #777" width="450" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="col-sm-8 text-left">
           <h2>Highlight</h2>
@@ -88,15 +103,15 @@
         <div class="col">
             <a href="index.html"><img id="logo-navbar-middle" src="images/Mobilelog3.png" width="100" alt="Transform Cannabis logo"></a>
         </div>
-        <div class="col text-center">
-          <a href="https://www.facebook.com/" target="_blank" class="icon"><i class="fab fa-facebook-square"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.twitter.com/" target="_blank" class="icon"><i class="fab fa-twitter-square"></i></a>
-          <a href="mailto:" target="_blank" class="icon"><i class="far fa-envelope"></i></a>
+        <div class="col text-right">
+          <a href="https://www.facebook.com/freedom.ride.inc" target="_blank" class="icon"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/FreedomRideInc" target="_blank" class="icon"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/freedomrideinc/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.google.com/maps?ll=28.603482,-81.411747&z=13&t=m&hl=en-US&gl=US&mapclient=embed&cid=17186566490224292817" target="_blank" class="icon"><i class="fas fa-map-marker-alt"></i></a>
         </div>
-      </div>
       <div class="row copyright text-center small px-4 pt-4">
-        <p>Project for DIG4172C Web Design Workshop II; Professor Dan Novatnak
+        <p>texttexttextexttextexttexttexttextexttextexttexttexttextexttextexttexttexttextexttextext
+            texttexttextexttextexttexttexttextexttextexttexttexttextexttextexttexttexttextexttextexttexttexttextexttextext
           <br><br>&copy; Transform Cannabis 2020</p>
         </p>
       </div>
